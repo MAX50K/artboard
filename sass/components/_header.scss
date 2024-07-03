@@ -1,0 +1,41 @@
+.header {
+  color: $baseColor;
+  height: 173px;
+  width: 177px;
+  margin-top: 19px;
+  margin-bottom: 22px;
+}
+
+.header .container{
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    align-items: center;
+}
+
+.header__button__list {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.header__button__item {
+}
+
+.header__button {
+  color: $baseColor;
+  text-align: center;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
+  padding: 8px 15px;
+}
+
+.sign-up{
+    border: 2px solid $baseColor;
+    border-radius: 20px;
+}
+
+.header__logo {
+}
