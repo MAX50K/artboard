@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", "sans-serif";
-  background-color: grey;
+  background-color: white;
 }
 
 .container {
@@ -119,6 +119,47 @@ img {
     font-style: 20px;
   }
 }
+.partners {
+  width: 100%;
+}
+
+.partners__title {
+  color: #333;
+  text-align: center;
+  font-size: 22.004px;
+  font-weight: 700;
+  margin-top: 63px;
+}
+
+.partner {
+  margin-top: 20px;
+}
+
+.partner::before {
+  content: "";
+  position: relative;
+  background-image: url("../../images/mob-1.jpg");
+  background-size: cover;
+}
+
+.partner__name {
+  color: #333;
+  text-align: center;
+  font-size: 14.011px;
+  font-weight: 700;
+}
+
+.partner__info {
+  color: #666;
+  margin-top: 13px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14.011px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 .hero {
   background-image: url("../../images/desk-header.jpg");
   background-size: cover;
@@ -183,4 +224,44 @@ img {
     height: 42px;
     font-size: 14px;
   }
+}
+.partners {
+  width: 100%;
+}
+
+.partners__title {
+  color: #333;
+  text-align: center;
+  font-size: 22.004px;
+  font-weight: 700;
+  margin-top: 63px;
+}
+
+.partner {
+  margin-top: 20px;
+}
+
+.partner::before {
+  content: "";
+  position: relative;
+  background-image: url("../../images/mob-1.jpg");
+  background-size: cover;
+}
+
+.partner__name {
+  color: #333;
+  text-align: center;
+  font-size: 14.011px;
+  font-weight: 700;
+}
+
+.partner__info {
+  color: #666;
+  margin-top: 13px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14.011px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */
