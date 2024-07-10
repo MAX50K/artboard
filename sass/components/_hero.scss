@@ -1,0 +1,66 @@
+.hero {
+  background-image: url("../../images/desk-header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 214px;
+  padding-bottom: 136px;
+  text-align: center;
+}
+
+.hero__title {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.hero__text {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 17px;
+}
+
+.hero__button {
+  width: 282px;
+  height: 42px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #FF4E50;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: url("../../images/desk-header.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+        padding-bottom: 233px;
+        text-align: center;
+      }
+      
+      .hero__title {
+        font-size: 52px;
+        margin-bottom: 36px;
+      }
+      
+      .hero__text {
+        font-size: 24px;
+        margin-bottom: 33px;
+      }
+      
+      .hero__button {
+        width: 228px;
+        height: 42px;
+        font-size: 14px;
+      }
+}
