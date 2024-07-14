@@ -13,7 +13,7 @@
 .partners__list {
 }
 
-.partner {
+.partner__item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,49 +21,26 @@
   margin-top: 20px;
 }
 
-.partner::before {
-  content: "";
-  display: block;
-  border-radius: 4px;
-  width: 120px;
-  height: 120px;
+.partner__image {
+  position: relative;
+
 }
 
-.partner:nth-child(1):before {
-  background-image: url("../../images/mob-1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 13px;
-}
-
-.partner:nth-child(2):before {
-  background-image: url("../../images/mob-2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 13px;
-}
-
-.partner:nth-child(3):before {
-  background-image: url("../../images/mob-3.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 13px;
-}
-
-.partner:nth-child(4):before {
-  background-image: url("../../images/mob-4.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 13px;
+.icon__overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 4px solid #FFF;
+  background-color: #FF4E50;
 }
 
 .partner__svg {
-  width: 35px;
-  height: 35px;
-  fill: #666;
-  background-color: #FF4E50;
+  width: 16px;
+  height: 16px;
   fill: #FFF;
-  
 }
 
 .partner__name {
